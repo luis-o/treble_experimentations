@@ -502,3 +502,4 @@ fi
 for (( idx=0; idx < ${#variant_codes[*]}; idx++ )); do
     build_variant "${variant_codes[$idx]}" "${variant_names[$idx]}"
 done
+
